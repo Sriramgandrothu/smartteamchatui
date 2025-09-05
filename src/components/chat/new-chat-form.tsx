@@ -138,7 +138,7 @@ export function NewChatForm({ onBack, onCreateChat }: NewChatFormProps) {
                       onClick={() => handleUseIcebreaker(icebreaker)}
                       className="w-full text-left justify-start text-xs h-auto p-3 border-accent/30 hover:bg-accent/10"
                     >
-                      "{icebreaker}"
+                      &quot;{icebreaker}&quot;
                     </Button>
                   ))}
                 </div>
